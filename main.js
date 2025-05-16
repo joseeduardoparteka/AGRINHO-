@@ -18,7 +18,33 @@ const perguntas = [
             }
         ]
     },
-    {
+    {<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Você decide o futuro da IA</title>
+</head>
+<body>
+    <div class="caixa-principal">
+        <h1>Você decide o futuro do IA</h1>
+        <div class="caixa-perguntas">
+            Você já sabe quais são as perguntas que irão nortear sua missão ?
+        </div>
+        <div class="caixa-alternativas">
+            <button>Sim, eu já sei</button>
+            <button>Não, estou ajustando algumas coisas</button>
+        </div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado">
+                Vamos testar?
+            </p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
         enunciado: "A falta de consciência ambiental e a baixa adesão a práticas sustentáveis acontecem por vários motivos, entre os quais destacam-se:",
         alternativas: [
             {
@@ -34,7 +60,33 @@ const perguntas = [
     {
         enunciado: "Por que há tanta escassez de recursos na saúde pública?",
         alternativas: [
-            {
+            {<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Você decide o futuro da IA</title>
+</head>
+<body>
+    <div class="caixa-principal">
+        <h1>Você decide o futuro do IA</h1>
+        <div class="caixa-perguntas">
+            Você já sabe quais são as perguntas que irão nortear sua missão ?
+        </div>
+        <div class="caixa-alternativas">
+            <button>Sim, eu já sei</button>
+            <button>Não, estou ajustando algumas coisas</button>
+        </div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado">
+                Vamos testar?
+            </p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
                 texto: "Acredito que Falta de investimento governamental",
                 afirmacao: "<b>Pragmatismo</b> A falta de investimento governamental na saúde pública decorre de orçamentos restritos e outras prioridades de gastos, levando a infraestrutura precária e serviços de saúde insuficientes."
             },
