@@ -45,14 +45,14 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Por que a violência obstétrica está cada vez mais banalizada? ",
+        enunciado: "o que acha da ideia de plantar seu próprio alimento? ",
         alternativas: [
             {
-                texto: "Negligência médica",
+                texto: "ótima ideia, faria isso na minha casa",
                 afirmacao: "<b>Foco</b> Apesar do uso de algumas técnicas serem restringidas apenas para casos específicos, ainda são utilizadas diariamente por profissionais da saúde."
             },
             {
-                texto: "Desinformação da população.",
+                texto: "muito trabalhoso, prefiro comprar no mercado",
                 afirmacao: "<b>Curiosidade</b> Mesmo com fácil acesso a informação, o assunto é pouco comentado e dado certa  importância. "
             },
         ]
