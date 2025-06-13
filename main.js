@@ -9,11 +9,11 @@ const perguntas = [
         enunciado: "Vocẽ se encaixa na vida no campo ou na cidade?",
         alternativas: [
             {
-                texto: "calmaria e sossego",
+                texto: "acredito que no campo",
                 afirmacao: "<b>Organização</b> Sim, a Sesa tem como principal função garantir o acesso ao serviços que visem a promoção, protećão e recuperação da saúde da população em todo o Paraná."
             },
             {
-                texto: "multidão e agitação",
+                texto: "acredito que na cidade",
                 afirmacao: "Você se destaca por seu <b>conhecimento</b>, o carimbo deverá conter também o número do Registro de Qualificação de Especialista (RQE)"
             }
         ]
