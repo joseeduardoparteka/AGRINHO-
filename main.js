@@ -19,7 +19,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "qual vocẽ prefere?:",
+        enunciado: "qual vocẽ prefere?",
         alternativas: [
             {
                 texto: "prefiro o silencio do campo",
@@ -32,14 +32,14 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Por que há tanta escassez de recursos na saúde pública?",
+        enunciado: "vocẽ gosta de animais?",
         alternativas: [
             {
-                texto: "Acredito que Falta de investimento governamental",
+                texto: "sim, gosto de todos e não tenho nojo",
                 afirmacao: "<b>Pragmatismo</b> A falta de investimento governamental na saúde pública decorre de orçamentos restritos e outras prioridades de gastos, levando a infraestrutura precária e serviços de saúde insuficientes."
             },
             {
-                texto: "desigualdades na distribuição de recursos",
+                texto: "não muito, só algum animal doméstico",
                 afirmacao: "<b>Detalhista</b>,Desigualdades na distribuição de recursos na saúde pública ocorrem quando os recursos são alocados de maneira desigual entre diferentes regiões ou populações. Isso pode resultar em acesso desigual a serviços de saúde, com áreas mais pobres ou rurais recebendo menos apoio e, portanto, enfrentando maiores desafios em termos de qualidade e acesso a cuidados médicos."
             },
         ]
