@@ -19,14 +19,14 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "veja:",
+        enunciado: "qual vocẽ prefere?:",
         alternativas: [
             {
-                texto: "porque o campo depende da cidade?",
+                texto: "prefiro o silencio do campo",
                 afirmacao: "as cidades oferecem um mercado consumidor para os produtos rurais, acesso a serviços e infraestrutura essenciais e oportunidades de emprego."
             },
             {
-                texto: "porque a cidade depende do campo?",
+                texto: "prefiro a agitação da cidade",
                 afirmacao: "é no campo que os alimentos consumidos pela população da cidade são produzidos e também frutas e hortalissas são cultivadas no campo."
             },
         ]
