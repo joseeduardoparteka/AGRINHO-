@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "acredito que no campo",
-                afirmacao: "<b>Organização</b> Sim, a Sesa tem como principal função garantir o acesso ao serviços que visem a promoção, protećão e recuperação da saúde da população em todo o Paraná."
+                afirmacao: "<b>determinação</b>, vocẽ é uma pessoa que gosta de resolver os problemas por conta pŕopria."
             },
             {
                 texto: "acredito que na cidade",
-                afirmacao: "Você se destaca por seu <b>conhecimento</b>, o carimbo deverá conter também o número do Registro de Qualificação de Especialista (RQE)"
+                afirmacao: "Você se destaca por sua <b>estabilidade</b>, gosta de estar ativo na sociedade. (RQE)"
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "prefiro o silencio do campo",
-                afirmacao: "as cidades oferecem um mercado consumidor para os produtos rurais, acesso a serviços e infraestrutura essenciais e oportunidades de emprego."
+                afirmacao: "é uma pessoa mais calma, se concentra mais com o silencio."
             },
             {
                 texto: "prefiro a agitação da cidade",
-                afirmacao: "é no campo que os alimentos consumidos pela população da cidade são produzidos e também frutas e hortalissas são cultivadas no campo."
+                afirmacao: "é uma pessoa mais agitada, que gosta de estar em movimento."
             },
         ]
     },
@@ -35,12 +35,13 @@ const perguntas = [
         enunciado: "vocẽ gosta de animais?",
         alternativas: [
             {
-                texto: "sim, gosto de todos e não tenho nojo",
-                afirmacao: "<b>Pragmatismo</b> A falta de investimento governamental na saúde pública decorre de orçamentos restritos e outras prioridades de gastos, levando a infraestrutura precária e serviços de saúde insuficientes."
+                tex
+                afirmacao: "Você se destaca por sua <b>estabilidade</b>, to: "sim, gosto de todos e não tenho nojo",
+                afirmacao: "uma pessoa que encara tudo e não recua diante de desafios"
             },
             {
                 texto: "não muito, só algum animal doméstico",
-                afirmacao: "<b>Detalhista</b>,Desigualdades na distribuição de recursos na saúde pública ocorrem quando os recursos são alocados de maneira desigual entre diferentes regiões ou populações. Isso pode resultar em acesso desigual a serviços de saúde, com áreas mais pobres ou rurais recebendo menos apoio e, portanto, enfrentando maiores desafios em termos de qualidade e acesso a cuidados médicos."
+                afirmacao: "uma pessoa que prefere buscar ajuda e informações antes de fazer qualquer coisa."
             },
         ]
     },
@@ -49,11 +50,12 @@ const perguntas = [
         alternativas: [
             {
                 texto: "ótima ideia, faria isso na minha casa",
-                afirmacao: "<b>Foco</b> Apesar do uso de algumas técnicas serem restringidas apenas para casos específicos, ainda são utilizadas diariamente por profissionais da saúde."
+                afir
+                afirmacao: "Você se destaca por sua <b>estabilidade</b>, macao: " vocẽ gosta de encarar os desafios pessoalmente, é uma pessoa que faz acontecer."
             },
             {
                 texto: "muito trabalhoso, prefiro comprar no mercado",
-                afirmacao: "<b>Curiosidade</b> Mesmo com fácil acesso a informação, o assunto é pouco comentado e dado certa  importância. "
+                afirmacao: "vocẽ não gosta de desafios, prefere estudar e encontar um meio de deixa-los mais faceis. "
             },
         ]
     },
@@ -62,11 +64,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "um lugar com grama, terra, pueira e natureza",
-                afirmacao: "Sim, pois preservando nosso meio ambiente, protegemos nossos animais e facilitamos sua reprodução "
+                afirmacao: " vocẽ é uma pessoa que busca aventuras, não se importa de se sujar se for para criar laços fortes e memórias inesqueciveis "
             },
             {
                 texto: "um lugar com calçada, parquinho, e sem sujeira",
-                afirmacao: "Sim, animais de um determinado local não estão preparados para lidar com predadores de outras áreas, levando a um extermínio da espécie local"
+                afirmacao: " vocẽ é uma pessoa que não gosta de se sujar para se aventurar, busca ser mais culta e viajar para lugares de beleza não natural"
             }
         ]
     }
@@ -110,3 +112,5 @@ function mostraResultado(){
 }
 
 mostraPergunta(); 
+
+                afirmacao: "Você se destaca por sua <b>estabilidade</b>, 
