@@ -58,14 +58,14 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Como evitar que ocorra a extinção de animais nativos?",
+        enunciado: "qual sua preferencia para criar crianças?",
         alternativas: [
             {
-                texto: "Criação de mais áreas de proteção ambiental, com grande biodiversidade ajudaria a melhorar esse cenário?",
+                texto: "um lugar com grama, terra, pueira e natureza",
                 afirmacao: "Sim, pois preservando nosso meio ambiente, protegemos nossos animais e facilitamos sua reprodução "
             },
             {
-                texto: "Evitar intervenções de espécies não nativas neste ambiente pode ser uma alternativa?",
+                texto: "um lugar com calçada, parquinho, e sem sujeira",
                 afirmacao: "Sim, animais de um determinado local não estão preparados para lidar com predadores de outras áreas, levando a um extermínio da espécie local"
             }
         ]
