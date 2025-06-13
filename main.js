@@ -9,11 +9,11 @@ const perguntas = [
         enunciado: "Você prefere calmaria e sossego ou agitação e multidão ?",
         alternativas: [
             {
-                texto: "sim",
+                texto: "calmaria e sossego",
                 afirmacao: "<b>Organização</b> Sim, a Sesa tem como principal função garantir o acesso ao serviços que visem a promoção, protećão e recuperação da saúde da população em todo o Paraná."
             },
             {
-                texto: "não",
+                texto: "multidão e agitação",
                 afirmacao: "Você se destaca por seu <b>conhecimento</b>, o carimbo deverá conter também o número do Registro de Qualificação de Especialista (RQE)"
             }
         ]
