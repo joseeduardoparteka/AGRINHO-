@@ -51,7 +51,7 @@ const perguntas = [
             {
                 texto: "ótima ideia, faria isso na minha casa",
                 afir
-                afirmacao: "Você se destaca por sua <b>estabilidade</b>, macao: " vocẽ gosta de encarar os desafios pessoalmente, é uma pessoa que faz acontecer."
+                afirmacao: "Você se destaca por sua <b>estabilidade</b>,vocẽ gosta de encarar os desafios pessoalmente, é uma pessoa que faz acontecer."
             },
             {
                 texto: "muito trabalhoso, prefiro comprar no mercado",
