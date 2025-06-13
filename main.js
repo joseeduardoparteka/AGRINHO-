@@ -6,94 +6,42 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como faço para conseguir medicamentos não padronizados do sus?",
+        enunciado: "Você prefere calmaria e sossego ou agitação e multidão ?",
         alternativas: [
             {
-                texto: "encaminhar-se a regional de saude do seu município, munido dos seguintes documentos: cpf ou rg, comprovante de residencia, prescriçao atualizada, receituario medico.",
+                texto: "sim",
                 afirmacao: "<b>Organização</b> Sim, a Sesa tem como principal função garantir o acesso ao serviços que visem a promoção, protećão e recuperação da saúde da população em todo o Paraná."
             },
             {
-                texto: "Exigências quanto ao  relatório médico. Os documentos preenchidos pelo médico deverão conter carimbo legível, com nome e CRM do médico, data e assinatura.",
+                texto: "não",
                 afirmacao: "Você se destaca por seu <b>conhecimento</b>, o carimbo deverá conter também o número do Registro de Qualificação de Especialista (RQE)"
             }
         ]
     },
-    {<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Você decide o futuro da IA</title>
-</head>
-<body>
-    <div class="caixa-principal">
-        <h1>Você decide o futuro do IA</h1>
-        <div class="caixa-perguntas">
-            Você já sabe quais são as perguntas que irão nortear sua missão ?
-        </div>
-        <div class="caixa-alternativas">
-            <button>Sim, eu já sei</button>
-            <button>Não, estou ajustando algumas coisas</button>
-        </div>
-        <div class="caixa-resultado">
-            <p class="texto-resultado">
-                Vamos testar?
-            </p>
-        </div>
-    </div>
-    <script src="main.js"></script>
-</body>
-</html>
-        enunciado: "A falta de consciência ambiental e a baixa adesão a práticas sustentáveis acontecem por vários motivos, entre os quais destacam-se:",
+    {
+        enunciado: "veja:",
         alternativas: [
             {
-                texto: "Falta de Educação Ambiental",
-                afirmacao: "Muitas pessoas não têm acesso a informações adequadas sobre o impacto de suas ações no meio ambiente, o que leva à falta de conscientização e, consequentemente, a comportamentos prejudiciais à <b>sustentabilidade</b>.</b>."
+                texto: "porque o campo depende da cidade?",
+                afirmacao: "as cidades oferecem um mercado consumidor para os produtos rurais, acesso a serviços e infraestrutura essenciais e oportunidades de emprego."
             },
             {
-                texto: "Falta de Incentivos e Legislação",
-                afirmacao: "A ausência de incentivos governamentais e de uma legislação <b>rigorosa </b>faz com que empresas e indivíduos não se sintam motivados a adotar práticas sustentáveis, contribuindo para a continuidade de ações nocivas ao meio ambiente."
-            }
+                texto: "porque a cidade depende do campo?",
+                afirmacao: "é no campo que os alimentos consumidos pela população da cidade são produzidos e também frutas e hortalissas são cultivadas no campo."
+            },
         ]
     },
     {
         enunciado: "Por que há tanta escassez de recursos na saúde pública?",
         alternativas: [
-            {<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Você decide o futuro da IA</title>
-</head>
-<body>
-    <div class="caixa-principal">
-        <h1>Você decide o futuro do IA</h1>
-        <div class="caixa-perguntas">
-            Você já sabe quais são as perguntas que irão nortear sua missão ?
-        </div>
-        <div class="caixa-alternativas">
-            <button>Sim, eu já sei</button>
-            <button>Não, estou ajustando algumas coisas</button>
-        </div>
-        <div class="caixa-resultado">
-            <p class="texto-resultado">
-                Vamos testar?
-            </p>
-        </div>
-    </div>
-    <script src="main.js"></script>
-</body>
-</html>
+            {
                 texto: "Acredito que Falta de investimento governamental",
                 afirmacao: "<b>Pragmatismo</b> A falta de investimento governamental na saúde pública decorre de orçamentos restritos e outras prioridades de gastos, levando a infraestrutura precária e serviços de saúde insuficientes."
             },
             {
                 texto: "desigualdades na distribuição de recursos",
                 afirmacao: "<b>Detalhista</b>,Desigualdades na distribuição de recursos na saúde pública ocorrem quando os recursos são alocados de maneira desigual entre diferentes regiões ou populações. Isso pode resultar em acesso desigual a serviços de saúde, com áreas mais pobres ou rurais recebendo menos apoio e, portanto, enfrentando maiores desafios em termos de qualidade e acesso a cuidados médicos."
-            }
+            },
         ]
     },
     {
@@ -106,7 +54,7 @@ const perguntas = [
             {
                 texto: "Desinformação da população.",
                 afirmacao: "<b>Curiosidade</b> Mesmo com fácil acesso a informação, o assunto é pouco comentado e dado certa  importância. "
-            }
+            },
         ]
     },
     {
