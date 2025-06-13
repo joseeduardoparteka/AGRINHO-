@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você prefere calmaria e sossego ou agitação e multidão ?",
+        enunciado: "Vocẽ se encaixa na vida no campo ou na cidade?",
         alternativas: [
             {
                 texto: "calmaria e sossego",
